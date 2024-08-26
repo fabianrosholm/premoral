@@ -76,6 +76,7 @@ body {
   flex-direction: column;
   justify-content: center;
   height: 100svh;
+  padding: 24px;
 }
 
 .intro {
@@ -84,7 +85,7 @@ body {
   flex-direction: column;
   text-align: center;
   gap: 40px;
-  max-width: 350px;
+  max-width: 400px;
 }
 
 .btn {
@@ -115,15 +116,4 @@ body {
 
 .italic {
   font-style: italic;
-}
-
-@media only screen and (max-width: 600px) {
-  body {
-    font-size: 16px;
-  }
-
-  .btn {
-    font-size: 16px;
-  }
-  
 }
