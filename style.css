@@ -108,3 +108,22 @@ body {
 .btn:hover {
 
 }
+
+.logo {
+  font-size: 23px;
+}
+
+.italic {
+  font-style: italic;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+
+  .btn {
+    font-size: 16px;
+  }
+  
+}
